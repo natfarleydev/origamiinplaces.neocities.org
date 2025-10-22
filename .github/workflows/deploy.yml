@@ -1,0 +1,42 @@
+name: Deploy to Neocities
+
+# Only run on changes to main branch
+on:
+  push:
+    branches:
+      - main
+
+# Prevent concurrent deploys
+concurrency:
+  group: deploy-to-neocities
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    # Checkout the repository
+    - uses: actions/checkout@v4
+    
+    # Set up Node.js
+    - name: Use Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: lts/*
+    
+    # Install dependencies and build
+    - name: Install deps and build
+      run: |
+        npm ci
+        npm run build
+    
+    # Deploy to Neocities
+    - name: Deploy to Neocities
+      uses: bcomnes/deploy-to-neocities@v3
+      with:
+        api_key: ${{ secrets.NEOCITIES_API_TOKEN }}
+        cleanup: true  # Delete orphaned files from Neocities
+        neocities_supporter: false  # Free account
+        preview_before_deploy: true
+        dist_dir: dist  # Parcel's default output directory
