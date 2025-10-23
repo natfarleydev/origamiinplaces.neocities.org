@@ -1,5 +1,25 @@
 @import "tailwindcss";
 
 a {
-    @apply text-blue-600
+    @apply text-blue-600 underline
+}
+
+.origami-item:hover {
+    @apply scale-105 transform
+}
+
+.origami-item {
+    @apply flex flex-col items-center justify-center m-8 scale-100 transition
+}
+
+.caption {
+    @apply text-sm w-full
+}
+
+.paper:before {
+    content: "📜";
+}
+
+.paper {
+    @apply text-sm w-full
 }
