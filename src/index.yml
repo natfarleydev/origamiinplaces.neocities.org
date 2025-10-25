@@ -1,0 +1,22 @@
+posts:
+  - image:
+      src: assets/IMG_20251019_crane_on_piano.jpg
+      alt: Crane on piano
+    caption: |
+        Crane on 5cm x 5cm paper cut with
+        <a class="link"
+          href="https://www.amazon.co.uk/Fiskars-Mini-Guillotine-Lever-type-protection/dp/B000VPTH0I/ref=sr_1_1?dib=eyJ2IjoiMSJ9.Yo4fBs5s17drklsYbD2FybHjUf8-KM0jaZfNek3PSkAnQbiceVH4WkZVSj_0tVGr_MNgkfLvJouOKK_O3jiMwWEGbjjt7FUWq5RPAOIuXcDLi-oj_gC_ckRZ3XH_LmdEHG-tFK9gTzQeLLhufEzjMO81DKd_Kj7rL3zpuHWMeqSWOfPXU6siyGiTlns2t4q8Hs_AV3cOq7zTQjAO-Kizs3qSO27T5ts9yI3S80YvE6jWJHZu6P952hiwphAUgS4-iSYZbPA5Hq4hUAidDBl8w83f5-ThCGN45DXZLidBoaY.UzDTqoF9FhqhSCd3kSDtjQzq1NrN3iZXpv3jDS4N-Ws&dib_tag=se&keywords=Fiskars+Paper+Cutter&qid=1761161173&sr=8-1">
+          Fiskars Mini Guillotine
+        </a>
+    paper:
+      link: https://www.amazon.co.uk/Origami-Paper-sheets-Photos-Inches/dp/0804853657/
+      text: Origami Paper Milky Way Photos
+  - image:
+      src: assets/IMG_20251010_skull_on_black_background.jpg
+      alt: Skull on black background
+    caption: |
+        Skull design by Jeremy Schaffer
+        <a href="https://www.youtube.com/watch?v=kbaeNG_K32Q&list=PLA1s-inNTVhwtUPM3iernONV8wDgGhwCC&index=1">
+          YouTube tutorial here
+        </a>
+    

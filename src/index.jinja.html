@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Origami In Places</title>
+  <link href="./index.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="flex flex-col w-full p-4 text-center">
+    <h1 class="text-2xl font-bold">Origami In Places</h1>
+    <p class="text-lg">A collection of origami models I have made in various places.</p>
+    <ul>
+      {% for post in posts %}
+      <li class="origami-item">
+        <img src="{{ post.image.src }}" alt="{{ post.image.alt }}" class="w-sm h-sm">
+        <p class="caption">
+          {{ post.caption|safe }}
+        </p>
+        {% if post.paper %}
+        <p class="paper">
+          <a href="{{ post.paper.link }}">
+            {{ post.paper.text }}
+          </a>
+        </p>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</body>
+
+</html>
