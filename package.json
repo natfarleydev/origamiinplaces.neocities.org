@@ -9,7 +9,8 @@
   },
   "dependencies": {
     "@tailwindcss/postcss": "^4.1.15",
-    "tailwindcss": "^4.1.15"
+    "tailwindcss": "^4.1.15",
+    "sharp": "^0.33.5"
   },
   "devDependencies": {
     "parcel": "^2.14.0"
