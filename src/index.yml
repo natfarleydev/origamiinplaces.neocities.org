@@ -1,5 +1,10 @@
 posts:
   - image:
+      src: IMG_20251025_green_rabbit_on_black_background.jpg
+      alt: Akira Yoshizawa's rabbit
+    caption:
+      Made a rabbit from tant paper. Design is Akira Yoshizawa
+  - image:
       src: assets/IMG_20251019_crane_on_piano.jpg
       alt: Crane on piano
     caption: |
