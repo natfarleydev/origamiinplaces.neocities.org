@@ -16,7 +16,7 @@
     <ul>
       {% for post in posts %}
       <li class="origami-item">
-        <img src="{{ post.image.src }}" alt="{{ post.image.alt }}" class="w-sm h-sm">
+        <img src="{{ post.image.src }}?width=800" alt="{{ post.image.alt }}" class="w-sm h-sm">
         <p class="caption">
           {{ post.caption|safe }}
         </p>
