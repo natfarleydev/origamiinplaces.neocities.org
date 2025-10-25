@@ -25,6 +25,7 @@ jobs:
     
     - name: Run templating
       run: |
+        cd src
         minijinja-cli index.jinja.html index.yml > index.html
 
     # Set up Node.js
