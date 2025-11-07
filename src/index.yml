@@ -1,5 +1,13 @@
 posts:
   - image:
+      src: assets/PXL_20251106_panda.jpg
+      alt: Panda on purple and yellow paper
+    caption: |
+      Panda from the latest British Origami magazine. I feel like this one is best enjoyed in stolen glances. Looking at it as a surprise makes it feel more real. I also love the final folds that make it stand up straight but also give it more body.
+    paper:
+      link: https://www.amazon.co.uk/Origami-Sheets-Rainbow-Colors-Stationery/dp/0804847185/
+      text: Tuttle Rainbow Colors
+  - image:
       src: assets/IMG_20251031_skull_with_candle.jpg
       alt: Skull origami with candle in front
     caption: Happy Halloween! 🎃 The paper for this didn't stay folded well, but the patterns make for excellent skulls
