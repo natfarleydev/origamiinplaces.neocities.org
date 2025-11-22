@@ -1,5 +1,28 @@
 posts:
   - image:
+      src: assets/PXL_20251120_rabbit_on_one_dollar.jpg
+      alt: Rabbit on fake dollar bill
+    caption: |
+      Rabbit adapted for dollar bill. Original design by Akira Yoshizawa
+    paper: 
+      link: https://www.tuttlepublishing.com/origami/origami-paper-actual-size-dollar-bills
+      text: "Origami Paper: Dollar Bills (from Tuttle)"
+  - image:
+      src: assets/PXL_20251119_flower_on_one_dollar.jpg
+      alt: Flower on fake dollar bill
+    caption: |
+      As a kid, I would make this flower <i>constantly</i> from the offcuts of making square paper from A4 paper. As an adult I've discovered you can buy fake dollars for origami and it's so cool to see this design using 'real' dollar bills!
+    paper: 
+      link: https://www.tuttlepublishing.com/origami/origami-paper-actual-size-dollar-bills
+      text: "Origami Paper: Dollar Bills (from Tuttle)"
+    date: 2025-11-22
+  - image:
+      src: assets/IMG_20251115_butterfly_on_subway_paper.jpg
+      alt: Butterfly on subway serviette
+    caption: |
+      I like to make butterflies on unusual papers. This is on a subway serviette. Somehow the shape of the butterfly always comes through even if the paper is soft.
+    date: 2025-11-22
+  - image:
       src: assets/PXL_20251106_panda.jpg
       alt: Panda on purple and yellow paper
     caption: |
