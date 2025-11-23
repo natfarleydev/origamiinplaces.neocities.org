@@ -18,9 +18,15 @@
   <div class="flex flex-col w-full p-4 text-center">
     <h1 class="text-2xl font-bold">Origami In Places</h1>
     <p class="text-lg">A collection of origami models I have made in various places.</p>
-    <ul>
+    <div class="flex flex-row m-auto w-full justify-center">
+
+    <ul class="posts-container">
       {% for post in posts %}
-      <li class="origami-item">
+      <li class="origami-item
+      {% if (loop.index) is divisibleby 2 %}
+      lg:hidden!
+      {% endif %}
+      ">
         <img src="{{ post.image.src }}?width=800" alt="{{ post.image.alt }}" class="w-sm h-sm">
         <p class="caption">
           {{ post.caption|safe }}
@@ -35,6 +41,28 @@
       </li>
       {% endfor %}
     </ul>
+    <ul class="posts-container max-lg:hidden!">
+      {% for post in posts %}
+      <li class="origami-item
+      {% if (loop.index + 1) is divisibleby 2 %}
+      lg:hidden!
+      {% endif %}
+      ">
+        <img src="{{ post.image.src }}?width=800" alt="{{ post.image.alt }}" class="w-sm h-sm">
+        <p class="caption">
+          {{ post.caption|safe }}
+        </p>
+        {% if post.paper %}
+        <p class="paper">
+          <a href="{{ post.paper.link }}">
+            {{ post.paper.text }}
+          </a>
+        </p>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+    </div>
   </div>
 </body>
 
