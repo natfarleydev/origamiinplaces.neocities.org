@@ -14,6 +14,9 @@ papers:
   hobbycraft-garbage: &hobbycraft-garbage
     link: https://www.hobbycraft.co.uk/red-and-white-origami-paper-15cm-50-pack/6609171000.html
     text: Red and White Origami Paper 15cm 50 Pack from Hobbycraft
+  subway: &subway
+    link: https://www.subway.com/en-AG/FindAStore
+    text: Go find it at Subway!
 
     
 posts:
@@ -52,6 +55,7 @@ posts:
     caption: |
       I like to make butterflies on unusual papers. This is on a subway serviette. Somehow the shape of the butterfly always comes through even if the paper is soft.
     date: 2025-11-22
+    paper: *subway
 
   - image:
       src: assets/PXL_20251106_panda.jpg
