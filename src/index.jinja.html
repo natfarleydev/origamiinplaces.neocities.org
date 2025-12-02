@@ -4,13 +4,14 @@
 <head>
   <meta charset="utf-8">
 
-<meta property="og:title" content="Origami In Places">
-<meta property="og:site_name" content="Origami In Places">
-<meta property="og:url" content="https://origamiinplaces.neocities.org">
-<meta property="og:description" content="A personal website for Origami In Places.">
-<meta property="og:type" content="website">
-<meta property="og:image" content="{{ posts[0].image.src }}?width=600">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Origami In Places</title>
+  <meta property="og:title" content="Origami In Places">
+  <meta property="og:site_name" content="Origami In Places">
+  <meta property="og:url" content="https://origamiinplaces.neocities.org">
+  <meta property="og:description" content="A personal website for Origami In Places.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="{{ posts[0].image.src }}?width=600">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Origami In Places</title>
   <link href="./index.css" type="text/css" rel="stylesheet" />
 </head>
 
@@ -21,48 +22,48 @@
     <p class="text-lg">A collection of origami models I have made in various places.</p>
     <div class="flex flex-row m-auto w-full justify-center">
 
-    <ul class="posts-container">
-      {% for post in posts %}
-      <li class="origami-item
+      <ul class="posts-container">
+        {% for post in posts %}
+        <li class="origami-item
       {% if (loop.index) is divisibleby 2 %}
       lg:hidden!
       {% endif %}
       ">
-        <img src="{{ post.image.src }}?width=800" alt="{{ post.image.alt }}" class="w-sm h-sm">
-        <p class="caption">
-          {{ post.caption|safe }}
-        </p>
-        {% if post.paper %}
-        <p class="paper">
-          <a href="{{ post.paper.link }}" target="_blank">
-            {{ post.paper.text }}
-          </a>
-        </p>
-        {% endif %}
-      </li>
-      {% endfor %}
-    </ul>
-    <ul class="posts-container max-lg:hidden!">
-      {% for post in posts %}
-      <li class="origami-item
+          <img src="{{ post.image.src }}?width=800" alt="{{ post.image.alt }}" class="w-sm h-sm">
+          <p class="caption">
+            {{ post.caption|safe }}
+          </p>
+          {% if post.paper %}
+          <p class="paper">
+            <a href="{{ post.paper.link }}" target="_blank">
+              {{ post.paper.text }}
+            </a>
+          </p>
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+      <ul class="posts-container max-lg:hidden!">
+        {% for post in posts %}
+        <li class="origami-item
       {% if (loop.index + 1) is divisibleby 2 %}
       lg:hidden!
       {% endif %}
       ">
-        <img src="{{ post.image.src }}?width=800" alt="{{ post.image.alt }}" class="w-sm h-sm">
-        <p class="caption">
-          {{ post.caption|safe }}
-        </p>
-        {% if post.paper %}
-        <p class="paper">
-          <a href="{{ post.paper.link }}">
-            {{ post.paper.text }}
-          </a>
-        </p>
-        {% endif %}
-      </li>
-      {% endfor %}
-    </ul>
+          <img src="{{ post.image.src }}?width=800" alt="{{ post.image.alt }}" class="w-sm h-sm">
+          <p class="caption">
+            {{ post.caption|safe }}
+          </p>
+          {% if post.paper %}
+          <p class="paper">
+            <a href="{{ post.paper.link }}" target="_blank">
+              {{ post.paper.text }}
+            </a>
+          </p>
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
     </div>
   </div>
 </body>
