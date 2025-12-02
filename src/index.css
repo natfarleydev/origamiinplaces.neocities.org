@@ -1,7 +1,12 @@
 @import "tailwindcss";
 
+
+html {
+    @apply dark:bg-black dark:text-white;
+}
+
 a {
-    @apply text-blue-600 underline
+    @apply text-blue-600 underline dark:text-blue-300;
 }
 
 .origami-item:hover {
