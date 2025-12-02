@@ -1,55 +1,77 @@
+papers:
+  chiyogami: &chiyogami
+    link: https://www.aitoh.com/ori-packs-other-designs
+    text: Chiyogami, 40 patterns from Aitoh (available on Amazon UK)
+  dollarbills: &dollarbills
+    link: https://www.tuttlepublishing.com/origami/origami-paper-actual-size-dollar-bills
+    text: "Origami Paper: Dollar Bills (from Tuttle)"
+  rainbow-200-sheets: &rainbow-200-sheets
+    link: https://www.amazon.co.uk/Origami-Sheets-Rainbow-Colors-Stationery/dp/0804847185/
+    text: Tuttle Rainbow Colors
+  milkyway-200-sheets: &milkyway-200-sheets
+    link: https://www.amazon.co.uk/Origami-Paper-sheets-Photos-Inches/dp/0804853657/
+    text: Origami Paper Milky Way Photos
+  hobbycraft-garbage: &hobbycraft-garbage
+    link: https://www.hobbycraft.co.uk/red-and-white-origami-paper-15cm-50-pack/6609171000.html
+    text: Red and White Origami Paper 15cm 50 Pack from Hobbycraft
+
+    
 posts:
+  - image:
+      src: assets/IMG_20251129_rabbit_at_disco.jpg
+      alt: Rabbit with lights in background
+    caption: |
+      Rabbit at the disco
+    paper: *chiyogami
+
   - image:
       src: assets/IMG_20251129_pegasus_on_green_red.jpg
       alt: Pegasus on green paper with yellow background
     caption: |
       Pegasus from <a href="https://archive.org/details/modernorigami0000sako/">Modern origami</a>. A very 3D model, difficult to photograph! This book was published in 1969, it's interesting to see how origami diagramming was different (and not as standardised). Very readable and well explained. It's also clear the <i>care</i> that goes into a book like this, nowadays books are 'cheap' to produce, but back then it was all by hand (I think!).
-    paper:
-      link: https://www.amazon.co.uk/Origami-Sheets-Rainbow-Colors-Stationery/dp/0804847185/
-      text: Tuttle Rainbow Colors
+    paper: *rainbow-200-sheets
+
   - image:
       src: assets/PXL_20251120_rabbit_on_one_dollar.jpg
       alt: Rabbit on fake dollar bill
     caption: |
       Rabbit adapted for dollar bill. Original design by Akira Yoshizawa
-    paper: 
-      link: https://www.tuttlepublishing.com/origami/origami-paper-actual-size-dollar-bills
-      text: "Origami Paper: Dollar Bills (from Tuttle)"
+    paper: *dollarbills
+
   - image:
       src: assets/PXL_20251119_flower_on_one_dollar.jpg
       alt: Flower on fake dollar bill
     caption: |
       As a kid, I would make this flower <i>constantly</i> from the offcuts of making square paper from A4 paper. As an adult I've discovered you can buy fake dollars for origami and it's so cool to see this design using 'real' dollar bills!
-    paper: 
-      link: https://www.tuttlepublishing.com/origami/origami-paper-actual-size-dollar-bills
-      text: "Origami Paper: Dollar Bills (from Tuttle)"
+    paper: *dollarbills
     date: 2025-11-22
+
   - image:
       src: assets/IMG_20251115_butterfly_on_subway_paper.jpg
       alt: Butterfly on subway serviette
     caption: |
       I like to make butterflies on unusual papers. This is on a subway serviette. Somehow the shape of the butterfly always comes through even if the paper is soft.
     date: 2025-11-22
+
   - image:
       src: assets/PXL_20251106_panda.jpg
       alt: Panda on purple and yellow paper
     caption: |
       Panda from the latest British Origami magazine. I feel like this one is best enjoyed in stolen glances. Looking at it as a surprise makes it feel more real. I also love the final folds that make it stand up straight but also give it more body.
-    paper:
-      link: https://www.amazon.co.uk/Origami-Sheets-Rainbow-Colors-Stationery/dp/0804847185/
-      text: Tuttle Rainbow Colors
+    paper: *rainbow-200-sheets
+
   - image:
       src: assets/IMG_20251031_skull_with_candle.jpg
       alt: Skull origami with candle in front
     caption: Happy Halloween! 🎃 The paper for this didn't stay folded well, but the patterns make for excellent skulls
-    paper:
-      link: https://www.hobbycraft.co.uk/red-and-white-origami-paper-15cm-50-pack/6609171000.html
-      text: Red and White Origami Paper 15cm 50 Pack from Hobbycraft
+    paper: *hobbycraft-garbage
+
   - image:
       src: assets/IMG_20251025_green_rabbit_on_black_background.jpg
       alt: Akira Yoshizawa's rabbit
     caption:
       Made a rabbit from tant paper. Design is Akira Yoshizawa
+
   - image:
       src: assets/IMG_20251019_crane_on_piano.jpg
       alt: Crane on piano
@@ -59,9 +81,8 @@ posts:
           href="https://www.amazon.co.uk/Fiskars-Mini-Guillotine-Lever-type-protection/dp/B000VPTH0I/ref=sr_1_1?dib=eyJ2IjoiMSJ9.Yo4fBs5s17drklsYbD2FybHjUf8-KM0jaZfNek3PSkAnQbiceVH4WkZVSj_0tVGr_MNgkfLvJouOKK_O3jiMwWEGbjjt7FUWq5RPAOIuXcDLi-oj_gC_ckRZ3XH_LmdEHG-tFK9gTzQeLLhufEzjMO81DKd_Kj7rL3zpuHWMeqSWOfPXU6siyGiTlns2t4q8Hs_AV3cOq7zTQjAO-Kizs3qSO27T5ts9yI3S80YvE6jWJHZu6P952hiwphAUgS4-iSYZbPA5Hq4hUAidDBl8w83f5-ThCGN45DXZLidBoaY.UzDTqoF9FhqhSCd3kSDtjQzq1NrN3iZXpv3jDS4N-Ws&dib_tag=se&keywords=Fiskars+Paper+Cutter&qid=1761161173&sr=8-1">
           Fiskars Mini Guillotine
         </a>
-    paper:
-      link: https://www.amazon.co.uk/Origami-Paper-sheets-Photos-Inches/dp/0804853657/
-      text: Origami Paper Milky Way Photos
+    paper: *milkyway-200-sheets
+
   - image:
       src: assets/IMG_20251010_skull_on_black_background.jpg
       alt: Skull on black background
@@ -70,4 +91,5 @@ posts:
         <a href="https://www.youtube.com/watch?v=kbaeNG_K32Q&list=PLA1s-inNTVhwtUPM3iernONV8wDgGhwCC&index=1">
           YouTube tutorial here
         </a>
+    paper: *chiyogami
     
