@@ -17,9 +17,29 @@ papers:
   subway: &subway
     link: https://www.subway.com/en-AG/FindAStore
     text: Go find it at Subway!
+  orange: &orange
+    link: https://www.tuttlepublishing.com/japan/origami-paper-200-sheets-bright-orange-6-15-cm-9780804858885
+    text: Origami Paper 200 sheets Bright Orange
 
     
 posts:
+  - image:
+      src: assets/IMG_20260117_akira_pigeon.jpg
+      alt: Pigeon by Akira Yoshizawa on red paper
+    caption: >
+      This pigeon is from Robert Harbin's 'More Origami'
+      (original design by Akira Yoshizawa)
+    paper: *rainbow-200-sheets
+
+      
+  - image:
+      src: assets/IMG_20260114_simple_pigeon.jpg
+      alt: Simple pigeon on orange paper
+    caption: >
+      Simple pigeon (traditional). I got this orange only
+      paper recently and I like it. It makes models <i>pop</i>.
+    paper: *orange
+
   - image:
       src: assets/IMG_20251207_unseen_servant.jpg
       alt: Dark figure on a table
