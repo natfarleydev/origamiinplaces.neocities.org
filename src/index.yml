@@ -20,9 +20,20 @@ papers:
   orange: &orange
     link: https://www.tuttlepublishing.com/japan/origami-paper-200-sheets-bright-orange-6-15-cm-9780804858885
     text: Origami Paper 200 sheets Bright Orange
+  tant: &tant
+    link: https://www.amazon.co.uk/Toyo-Origami-Tant-007200-Colors/dp/B001J2YIA6/ref=sr_1_6_pp?dib=eyJ2IjoiMSJ9.0UhwIvwE5_GaBUP9xMfO2qQc8GtMLjInJpfSBmZ8bLSkP6Wh6fhhMM54GlbaUghGu6fgWFnakSXE8yC8xC473qincFGjH8C0w7bM2pZjKECqnA1TZGVfz8KUqvz-3OIsN7arhUOygew4TxPJMVzTwheSdCL15so0fK9mP-rL75qoAvm7yeJe8j9mAcKLFGuKn73PUWItAptfHiUwfPNN-_4gdIj3btQFsw9_WV9LHdjG_RUftlHrbEnHf3mrbmgheyPrHzV357rBCSsgpZuxMqwxLPq_Ov1haJvrORmjeO0.HaI7-KoOhknidy27QHnHXWWd3_qO8A6EcaJt11eHaZE&dib_tag=se&keywords=tant+origami+paper&qid=1769559027&sr=8-6
+    text: Toyo Origami Tant (007200), 15 cm x 15 cm, 100 Colors
 
     
 posts:
+  - image:
+      src: assets/IMG_20260127_angel_on_tant.jpg
+      alt: Angel by John Montroll on tant
+    caption: >
+      Angel on tant. I had dreams of making a nativity out of origami
+      from John Montroll's 'Christmas Origami' but time ran away with me!
+    paper: *tant
+    
   - image:
       src: assets/IMG_20260117_akira_pigeon.jpg
       alt: Pigeon by Akira Yoshizawa on red paper
@@ -103,6 +114,7 @@ posts:
       alt: Akira Yoshizawa's rabbit
     caption:
       Made a rabbit from tant paper. Design is Akira Yoshizawa
+    paper: *tant
 
   - image:
       src: assets/IMG_20251019_crane_on_piano.jpg
