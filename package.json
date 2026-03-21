@@ -4,8 +4,8 @@
   "version": "0.0.0",
   "source": "src/index.html",
   "scripts": {
-    "start": "parcel",
-    "build": "parcel build"
+    "start": "parcel src/{index,trmnl}.html",
+    "build": "parcel build src/{index,trmnl}.html"
   },
   "dependencies": {
     "@tailwindcss/postcss": "^4.1.15",
