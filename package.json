@@ -4,7 +4,8 @@
   "version": "0.0.0",
   "source": "src/index.html",
   "scripts": {
-    "start": "parcel src/{index,trmnl}.html",
+    "dev": "parcel src/{index,trmnl}.html",
+    "start": "serve_dev.sh",
     "build": "parcel build src/{index,trmnl}.html"
   },
   "dependencies": {
