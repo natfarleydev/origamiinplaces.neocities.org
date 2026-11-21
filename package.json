@@ -5,7 +5,7 @@
   "source": "src/index.html",
   "scripts": {
     "dev": "parcel src/{index,trmnl}.html",
-    "start": "serve_dev.sh",
+    "start": "./serve_dev.sh",
     "build": "parcel build src/{index,trmnl}.html"
   },
   "dependencies": {
