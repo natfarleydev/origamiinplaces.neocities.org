@@ -23,6 +23,9 @@ papers:
   tant: &tant
     link: https://www.amazon.co.uk/Toyo-Origami-Tant-007200-Colors/dp/B001J2YIA6/ref=sr_1_6_pp?dib=eyJ2IjoiMSJ9.0UhwIvwE5_GaBUP9xMfO2qQc8GtMLjInJpfSBmZ8bLSkP6Wh6fhhMM54GlbaUghGu6fgWFnakSXE8yC8xC473qincFGjH8C0w7bM2pZjKECqnA1TZGVfz8KUqvz-3OIsN7arhUOygew4TxPJMVzTwheSdCL15so0fK9mP-rL75qoAvm7yeJe8j9mAcKLFGuKn73PUWItAptfHiUwfPNN-_4gdIj3btQFsw9_WV9LHdjG_RUftlHrbEnHf3mrbmgheyPrHzV357rBCSsgpZuxMqwxLPq_Ov1haJvrORmjeO0.HaI7-KoOhknidy27QHnHXWWd3_qO8A6EcaJt11eHaZE&dib_tag=se&keywords=tant+origami+paper&qid=1769559027&sr=8-6
     text: Toyo Origami Tant (007200), 15 cm x 15 cm, 100 Colors
+  cottage_cheese: &cottage_cheese
+    link: https://www.asda.com/groceries/product/cottage-cheese-quark/just-essentials-by-asda-cottage-cheese-300g/7449545
+    text: JUST ESSENTIALS by ASDA Cottage Cheese 300g (lid)
 
     
 posts:
@@ -35,6 +38,15 @@ posts:
       little tweaking you can get really different shapes that are still
       very cat like. Taught this at BOS York convention 2026, and then
       practiced from the book Brown Paper by Wayne Brown. 
+
+  - image:
+      src: assets/IMG_20261024_penguin_from_cottage_cheese_lid.jpg
+      alt: Penguin by Alain Georgeot on cottage cheese lid
+    caption: >
+      For ages I couldn't work out where one would get a circular piece of
+      paper with a bump in it, until I realised it was a cottage cheess lid!
+      This is a penguin by Alain Georgeot, from BOS Convention booklet Autumn 2026.
+    paper: *cottage_cheese
 
   - image:
       src: assets/IMG_20260127_angel_on_tant.jpg
